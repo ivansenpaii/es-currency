@@ -1,0 +1,8 @@
+parameters:
+  custom_config:
+    clients_config:
+      cbr_connector:
+        url: "%env(CBR_URL)%"
+        endpoints:
+          script: "%env(CBR_SCRIPT_ENDPOINT)%"
+        auth_type: 'none'
