@@ -5,3 +5,11 @@ controllers:
         path: ../src/Controller/v1/
         namespace: App\Controller\v1
     type: attribute
+
+web_controllers:
+    resource: ../src/Controller/Web/
+    type: attribute
+
+security_controllers:
+    resource: ../src/Controller/Security/
+    type: attribute

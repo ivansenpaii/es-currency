@@ -3,9 +3,9 @@
 namespace App\Connector;
 
 use App\Config\CustomConfig;
-use App\Connector\Exceptions\AuthDataNotFoundException;
-use App\Connector\Exceptions\AuthTypeEmptyException;
-use App\Connector\Exceptions\UrlEmptyException;
+use App\Service\Exceptions\AuthDataNotFoundException;
+use App\Service\Exceptions\AuthTypeEmptyException;
+use App\Service\Exceptions\UrlEmptyException;
 use SimpleXMLElement;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Component\HttpClient\HttpOptions;

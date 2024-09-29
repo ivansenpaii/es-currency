@@ -14,11 +14,7 @@ class CurrencyController extends AbstractController
     {
     }
 
-    #[Route(
-        path: '/currency',
-        name: 'get_currency',
-        methods: [Request::METHOD_GET]
-    )]
+    #[Route(path: '/currency', name: 'get_currency', methods: [Request::METHOD_GET])]
     public function getCurrency(): JsonResponse
     {
         return new JsonResponse($this->currencyService->getCurrency());
